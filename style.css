@@ -1,0 +1,72 @@
+body {
+    background: url(./bcc.jpg);
+    font-size: 1.2em;
+    font-family: sans-serif;    
+}
+
+h1{
+    font-size: 2.5em;
+    font-family: 'Roboto', monospace;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote-box {
+    text-align: center;
+    padding: 23px;
+    background-color:transparent;
+}
+
+button {
+    background: #85144b;
+    color: #fff;
+    font-family: Sans-serif;
+    font-size: 20px;
+    height: 40px;
+    width: 120px;
+    border-radius: 8px;
+    margin: 25px auto;
+    margin-bottom: 5px;
+    text-align: center;
+    border: 0; 
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    cursor: pointer;
+    background: red;
+  }
+
+  #tweet-quote{
+    width: 180px;
+    margin-top: 0px;
+  }
+  
+  #tweet-quote a{
+    text-decoration: none;
+    color: wheat;
+  }
+
+  #text{
+      padding: 23px;
+      font-size: 2em;
+      font-family: 'Roboto', sans-serif;
+      margin-bottom: 23px;
+      border-radius: 5px;
+      background-color: transparent;
+    }
+    
+    
+    #author{
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 1.3em;
+        background-color: transparent;
+        color: red;
+        display: inline-block;
+}
